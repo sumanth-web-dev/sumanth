@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<script>
+    function fun(str1){
+        var s1=document.getElementsByClassName('items')
+        if (str1=='about'){
+            window.location='about.html'
+        }else 
+        if (str1=='index'){
+            window.location='index.html'
+        }else
+        if (str1=='Skills'){
+            window.location='skills.html'
+        }else
+        if (str1=='contact'){
+            window.location='contact.html'
+        }else
+        if (str1=='portfolio'){
+            window.location='portfolio.html'
+        }
+    }
+</script>
+
+
+</head>
+<body>
+    <div id="head">
+        <button class="items" onclick="fun('index')">Home</button>
+        <button class="items" onclick="fun('about')">About</button>
+        <button class="items"onclick="fun('Skills')">Skills</button>
+        <button class="items"onclick="fun('portfolio')">Potfolio</button>
+        <button class="items" onclick="fun('contact')">Contact</button>
+    </div>
+    <div id="pic">
+        <img src="pic.png">
+        <div id="about">
+            <h4><b>Hi, It's Me</b></h4> <br>
+            <h1>I'm Sumanth</h1> <br>
+            I'm professional web Developer.Our Main Goal to help & <br>
+            Satisficed the Local & Global Clients by web Development solutions
+
+            <div class="icons">
+                <a href="#" id="linked" class="fa fa-linkedin"></a>
+                <a href="#" id="insta" class="fa fa-instagram"></a>
+                <a href="#" id="git" class="fa fa-github"></a>
+                <a href="#" id="face" class="fa fa-facebook"></a>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="footer">
+        @2023 MY WEBSITE ALL RIGHTS RESERVERD
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="about.css">
+    <script>
+        function fun(str1){
+            var s1=document.getElementsByClassName('items')
+            if (str1=='about'){
+                window.location='about.html'
+            }else 
+            if (str1=='index'){
+                window.location='index.html'
+            }else
+            if (str1=='Skills'){
+                window.location='skills.html'
+            }else
+            if (str1=='contact'){
+                window.location='contact.html'
+            }else
+            if (str1=='portfolio'){
+                window.location='portfolio.html'
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="head">
+        <button class="items" onclick="fun('index')">Home</button>
+        <button class="items" onclick="fun('about')">About</button>
+        <button class="items"onclick="fun('Skills')">Skills</button>
+        <button class="items"onclick="fun('portfolio')">Potfolio</button>
+        <button class="items" onclick="fun('contact')">Contact</button>
+    </div>
+    <fieldset><legend>ABOUT ME</legend>
+        <div id="center">
+            <p>        I am Sumanth Reddy,from CSE backgroung.I completed my graduation in 2023 under JNTUA univarsity.
+                I have code coding Knowlegde in full stack web developer.And project is one of the front-end developer.
+                I use develop many application like <STRong>TIC TAC TOE GAME, CALCULATOR, AND MANY MORE</STRong>.
+                I want to gain knowlegde with the team collaboration.And give my credits to the company.  </p>
+         </div>
+    </fieldset>
+
+    <div class="footer">
+        @2023 MY WEBSITE ALL RIGHTS RESERVERD
+    </div>
+</body>
+</html>

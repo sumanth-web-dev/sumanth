@@ -1,0 +1,115 @@
+*{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 1%;
+}
+
+#head{
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    height: 30%;
+
+
+}
+
+
+
+.items:hover{
+    background-color: white;
+    color: black;
+    box-shadow: -0.3ch 0.3ch  -0.3ch 0.3ch  0.5ch whitesmoke;
+
+}
+
+.items{
+    flex:1;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px auto;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+
+#pic img{
+    margin-top: 7%;
+    border:1px solid;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: -0.3ch -0.3ch 2ch 2ch rgb(69, 50, 50);
+    box-shadow: 0.3ch, 0.3ch 2ch 2ch rgb(69, 50, 50);
+    height: 50%;
+    width: 25%;
+    border: none;
+    transform: scale(0.8);
+    transition: .2s ;
+
+}
+
+
+
+
+#pic img:hover{
+    transform: scale(1);
+}
+
+
+
+#pic{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+
+}
+
+#about{
+    top:40%;
+    height: 50%;
+    width: 40%;
+    flex:1;
+    text-align: center;
+}
+
+
+
+
+.icons a{
+    height: 10%;
+    width: 4%;
+    border: 1px solid;
+    border-radius:  25px;
+    padding: 5px;
+    border: none;
+    padding: 15px;
+}
+
+.icons #linked:hover, #face:hover{
+    background-color: blue;
+    border: transparent;
+}
+
+.icons #insta:hover{
+    background-color: rgb(245, 63, 142);
+    border: transparent;
+}
+
+
+.icons #git:hover{
+    background-color: rgb(158, 157, 158);
+    border: transparent;
+}
+
+
+.footer{
+    text-align: center;
+    padding: 30PX;
+
+}
+
+

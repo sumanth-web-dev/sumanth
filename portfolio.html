@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script>
+        function fun(str1){
+            var s1=document.getElementsByClassName('items')
+            if (str1=='about'){
+                window.location='about.html'
+            }else 
+            if (str1=='index'){
+                window.location='index.html'
+            }else
+            if (str1=='Skills'){
+                window.location='skills.html'
+            }else
+            if (str1=='contact'){
+                window.location='contact.html'
+            }else
+            if (str1=='portfolio'){
+                window.location='portfolio.html'
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="head">
+        <button class="items" onclick="fun('index')">Home</button>
+        <button class="items" onclick="fun('about')">About</button>
+        <button class="items"onclick="fun('Skills')">Skills</button>
+        <button class="items"onclick="fun('portfolio')">Potfolio</button>
+        <button class="items" onclick="fun('contact')">Contact</button>
+    </div>
+
+
+    
+    <fieldset>
+        <legend>EDUCATION DETAILS</legend>
+        <table>
+            <tr>
+                <th>S.NO</th>
+                <TH>SCHOOL/COLLEGE NAME</TH>
+                <TH>BOARD OF THE EXAM NAME</TH>
+                <TH>PERCENTAGE/CGP</TH>
+            </tr>
+            <TR>
+                <TD>1</TD>
+                <TD>SREE RAMA ENGINEERING COLLEGE</TD>
+                <TD>JNTUA</TD>
+                <TD>73%</TD>
+            </TR>
+            <TR>
+                <TD>2</TD>
+                <TD>NRI JUNIOR INTER COLLEGE</TD>
+                <TD>INTERMIDIATE BOARD</TD>
+                <TD>87 CGP</TD>
+            </TR>
+            <TR>
+                <TD>3</TD>
+                <TD>BLUE BELLS ENGLISH MEDIUM HIGH SCHOOL</TD>
+                <TD>SECOUNDARY SCHOOL OF BOARD</TD>
+                <TD>87 CGP</TD>
+            </TR>
+
+        </table>
+    </fieldset>
+
+
+
+    <fieldset class="head">
+        <legend class="tile">MINI PROJECT DETAILS</legend>
+
+
+        <fieldset class="head">
+            <legend class="tile">CALCULATOR</legend>
+            <P>USING HTML, CSS , JAVA SCRIPT WE BIULD THE CALCULATOR.IT PERFORM BASIC ARTHEMATIC OPERATORS LIKE ADDITION, SUBSTRACTION, MULTIPLICATION,DIVISION AND MODULAR</P>
+        </fieldset>
+
+
+        <FIeldset class="head">
+            <LEGend class="tile">TIC TAC TOE</LEGend>
+            <P>IT IS A GAME.TWO APPONENTS ARE NEED TO PLAY THIS GAME.THE GAME LIKE A PUZZLE.THE USER MAKE CORRECT PATTEN BEFORE THE OPPOSITE APPONENT THEN ONLY THE PLAYER WIN.</P>
+        </FIeldset>
+
+        <FIeldset class="head">
+            <LEGend class="tile">WEBSITE ABOUT ME</LEGend>
+            <P>THIS WEBSITE IS DEGINE WITH HTML,CSS ALL THE DETAILS IN WEBSITE IS BELONGS TO ME.THIS WEBSITE TELLS ABOUT ME AND MY SKILLS PORTFOLIO AND MY CONTACT DETAILS</P>
+        </FIeldset>
+
+    </fieldset>
+
+
+
+    <fieldset class="head">
+        <legend class="tile">MAJOR PROJECT DETAILS</legend>
+        <fieldset class="head">
+            <LEgend class="tile">DEEP LEARNING-BASED FACE MASK DETECTION USING YOLO V5.</LEgend>
+            THIS STUDY EXPLORES YOLOV5-BASED FACE MASK DETECTION DURING THE COVID-19 PANDEMIC, FINDING THE 300-EPOCH MODEL TO PERFORM BEST WITH 96.5% ACCURACY. CNNS EXCEL IN IMAGE ANALYSIS WITH MINIMAL PRE-PROCESSING, THANKS TO THEIR FILTER-BASED FEATURE EXTRACTION.
+        </fieldset>
+    </fieldset>
+
+
+
+    <fieldset CLASS="head">
+        <legend class="tile">CERTIFICATIONS</legend>
+        <img src="PYTHON.jpeg" alt="PYTHON">
+        <img src="OOPS.jpg">
+        <img src="Data_structures_certificate.jpg">
+    </fieldset>
+
+    <div class="footer">
+        @2023 MY WEBSITE ALL RIGHTS RESERVERD
+    </div>
+</body>
+</html>
+

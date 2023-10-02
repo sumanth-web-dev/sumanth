@@ -1,115 +1,102 @@
-*{
+
+body{
     background-color: black;
     color: white;
-    font-size: 20px;
-    margin: 1%;
+    font-size: 10pc;
+    background-repeat: no-repeat;
+    background-size:cover;
+
 }
 
-#head{
+.table{
+    margin-top: 5%;
+    margin-left: 25%;
+    float: left;
+    border: solid 1px white;
+    width: 18pc;
+    height: 18pc;
+}
+
+.rows{
+    border: 1px white solid;
+    height: 6pc;
+    width: 18pc;
+    display: flex;
+}
+
+p{
+    height: 20px;
+    width:autopx;
+    font-size: large;
+    border: 3px solid rgb(239, 245, 240);
+    display: flex;
+}
+img{
+    height: auto;
+    width: 6pc;
+    display:flex;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.person1{
+    float:left;
+    margin-top: 10%;
     margin-left: 10%;
+
+}
+.person2{
+    float:right;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+button{
+    color: white;
+    height: 6pc;
+    width: 6pc;
+    border: 3px solid rgb(239, 245, 240);
+    background-color: black;
+    border-collapse: separate;
+    font-size: 4pc;
+    text-align: center;
+}
+
+
+#reset:hover{
+        color: #e9e4e4;
+        background: #058919;
+        box-shadow: 2px 2px 10px #7a7b7b;
+        
+}
+
+
+#re{
+    margin-top: 15%;
     display: flex;
-    justify-content: flex-end;
-    width: 30%;
-    height: 30%;
-
-
+    justify-content: center;
 }
 
-
-
-.items:hover{
-    background-color: white;
-    color: black;
-    box-shadow: -0.3ch 0.3ch  -0.3ch 0.3ch  0.5ch whitesmoke;
-
-}
-
-.items{
-    flex:1;
-    align-items: center;
+#reset{
+    margin-top: 2%;
+    margin-left:43%;
+    border: 1PX SOLID white;
+    color: white;
+    width: 20%;
+    height: 15%;
+    display: none;
+    font-size: 2pc;
     border-radius: 10px;
-    box-shadow: 10px auto;
-    text-align: center;
-    padding: 2px;
-    cursor: pointer;
-
+    animation: name infinite ;
 }
 
-
-#pic img{
-    margin-top: 7%;
-    border:1px solid;
-    border-radius: 20px;
-    position: relative;
-    box-shadow: -0.3ch -0.3ch 2ch 2ch rgb(69, 50, 50);
-    box-shadow: 0.3ch, 0.3ch 2ch 2ch rgb(69, 50, 50);
-    height: 50%;
-    width: 25%;
-    border: none;
-    transform: scale(0.8);
-    transition: .2s ;
-
+@keyframes name {
+    
 }
+    
 
 
 
-
-#pic img:hover{
-    transform: scale(1);
+#reslt{
+    width: 60px;
+    display:contents;
+    font-size:60px;   
 }
-
-
-
-#pic{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 1;
-
-}
-
-#about{
-    top:40%;
-    height: 50%;
-    width: 40%;
-    flex:1;
-    text-align: center;
-}
-
-
-
-
-.icons a{
-    height: 10%;
-    width: 4%;
-    border: 1px solid;
-    border-radius:  25px;
-    padding: 5px;
-    border: none;
-    padding: 15px;
-}
-
-.icons #linked:hover, #face:hover{
-    background-color: blue;
-    border: transparent;
-}
-
-.icons #insta:hover{
-    background-color: rgb(245, 63, 142);
-    border: transparent;
-}
-
-
-.icons #git:hover{
-    background-color: rgb(158, 157, 158);
-    border: transparent;
-}
-
-
-.footer{
-    text-align: center;
-    padding: 30PX;
-
-}
-
-

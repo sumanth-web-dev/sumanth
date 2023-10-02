@@ -18,13 +18,6 @@
 
 }
 
-button{
-    border-radius: 5px;
-    display: list-item;
-    justify-content: space-between;
-}
-
-
 
 
 .items:hover{
@@ -44,6 +37,16 @@ button{
     padding: 2px;
     cursor: pointer;
 
+}
+
+
+
+
+
+button{
+    border-radius: 5px;
+    display: list-item;
+    justify-content: space-between;
 }
 
 
@@ -112,4 +115,17 @@ img{
     text-align: center;
     padding: 30PX;
 
+}
+
+
+#colors{
+    animation: name .4s infinite;
+}
+
+@keyframes name {
+    
+    100% {background-color: #eb0f0f;}
+
+    70%{background-color: rgb(7, 114, 14);}
+    
 }

@@ -1,0 +1,140 @@
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+#head{
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    height: 30%;
+
+}
+
+
+
+.items{
+    flex:1;
+    align-items: center;
+    border-radius: 10px ;
+    background-color: black;
+    box-shadow: 10px auto;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.items:hover{
+    background-color: white;
+    color: black;
+    box-shadow: -0.3ch 0.3ch  -0.3ch 0.3ch  0.5ch whitesmoke;
+
+}
+
+
+
+.table{
+    margin-top: 5%;
+    margin-left: 25%;
+    float: left;
+    border: solid 1px white;
+    width: 18pc;
+    height: 18pc;
+}
+
+
+.rows{
+    border: 1px white solid;
+    height: 6pc;
+    width: 18pc;
+    display: flex;
+}
+
+
+.cell{
+    color: white;
+    height: 6pc;
+    width: 6pc;
+    border: 3px solid rgb(239, 245, 240);
+    background-color: black;
+    border-collapse: separate;
+    font-size: 4pc;
+    text-align: center;
+}
+
+
+#reset{
+    
+    height: 50px;
+    width: 170px;
+    border: 3px solid rgb(239, 245, 240);
+    border-collapse: separate;
+    font-size: 30px;
+    text-align: center;
+    color: #df14bd;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 1%;
+    display: none;
+    }
+    #reset:hover{
+        color: #111;
+        background: #f30862;
+        box-shadow: 0 0 50px #ee0bc8;
+    }
+
+
+#re{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+}
+#re2{
+    display: flex;
+    justify-content: center;
+}
+#reslt{
+    width: 60px;
+    display:contents;
+    font-size:60px;   
+}
+
+
+
+p{
+    height: 20px;
+    width:autopx;
+    font-size: large;
+    border: 3px solid rgb(239, 245, 240);
+    display: flex;
+}
+img{
+    height: auto;
+    width: 6pc;
+    display:flex;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.person1{
+    float:left;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+.person2{
+    float:right;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+

@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style1.css">
     <script src="home.js"></script>
-    
+    <script>
+        
+
+function fun(str1){
+    var s1=document.getElementsByClassName('items')
+    if (str1=='about'){
+        window.location='about.html'
+    }else 
+    if (str1=='index'){
+        window.location='index.html'
+    }else
+    if (str1=='Skills'){
+        window.location='skills.html'
+    }else
+    if (str1=='contact'){
+        window.location='contact.html'
+    }else
+    if (str1=='portfolio'){
+        window.location='portfolio.html'
+    }else
+    if (str1=='tic_tac'){
+        window.location='home.html'
+    }
+}
+
+    </script>
+  
 </head>
+
+
 <body>
+    <div id="head">
+        <button class="items" onclick="fun('index')">Home</button>
+        <button class="items" onclick="fun('about')">About</button>
+        <button class="items" onclick="fun('Skills')">Skills</button>
+        <button class="items" onclick="fun('portfolio')">Potfolio</button>
+        <button class="items" onclick="fun('contact')">Contact</button>
+    </div>
+
+
     <div class="person1">
         <img src="person3.jpg"
          alt="player1">
@@ -16,21 +53,22 @@
     </div>
     <div class="table">
         <div class="rows">
-            <button id="0" onclick="fun('0')"></button>
-            <button id="1" onclick="fun('1')"></button>
-            <button id="2" onclick="fun('2')"></button>
+            <button class="cell" id="0" onclick="fun('0')"></button>
+            <button class="cell" id="1" onclick="fun('1')"></button>
+            <button class="cell" id="2" onclick="fun('2')"></button>
         </div>
         <div class="rows">
-            <button id="3" onclick="fun('3')"></button>
-            <button id="4" onclick="fun('4')"></button>
-            <button id="5" onclick="fun('5')"></button>
+            <button class="cell" id="3" onclick="fun('3')"></button>
+            <button class="cell" id="4" onclick="fun('4')"></button>
+            <button class="cell" id="5" onclick="fun('5')"></button>
         </div>
         <div class="rows">
-            <button id="6" onclick="fun('6')"></button>
-            <button id="7" onclick="fun('7')"></button>
-            <button id="8" onclick="fun('8')"></button>
+            <button class="cell" id="6" onclick="fun('6')"></button>
+            <button class="cell" id="7" onclick="fun('7')"></button>
+            <button class ="cell" id="8" onclick="fun('8')"></button>
         </div>
     </div>
+
     <div class="person2">
         <img src="person4.jpg"
          alt="player 2">

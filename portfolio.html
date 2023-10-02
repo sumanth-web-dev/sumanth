@@ -22,16 +22,22 @@
             }else
             if (str1=='portfolio'){
                 window.location='portfolio.html'
+            }else
+            if (str1=='tic_tac'){
+                window.location='home.html'
             }
         }
     </script>
 </head>
+
+    
+
 <body>
     <div id="head">
         <button class="items" onclick="fun('index')">Home</button>
         <button class="items" onclick="fun('about')">About</button>
-        <button class="items"onclick="fun('Skills')">Skills</button>
-        <button class="items"onclick="fun('portfolio')">Potfolio</button>
+        <button class="items" onclick="fun('Skills')">Skills</button>
+        <button class="items" onclick="fun('portfolio')">Potfolio</button>
         <button class="items" onclick="fun('contact')">Contact</button>
     </div>
 
@@ -83,6 +89,7 @@
         <FIeldset class="head">
             <LEGend class="tile">TIC TAC TOE</LEGend>
             <P>IT IS A GAME.TWO APPONENTS ARE NEED TO PLAY THIS GAME.THE GAME LIKE A PUZZLE.THE USER MAKE CORRECT PATTEN BEFORE THE OPPOSITE APPONENT THEN ONLY THE PLAYER WIN.</P>
+            <button class="items" id="colors" onclick="fun('tic_tac')">click me</button>
         </FIeldset>
 
         <FIeldset class="head">
@@ -111,9 +118,10 @@
         <img src="Data_structures_certificate.jpg">
     </fieldset>
 
+
+
     <div class="footer">
         @2023 MY WEBSITE ALL RIGHTS RESERVERD
     </div>
 </body>
 </html>
-

@@ -13,8 +13,6 @@
     margin-left: 10%;
     display: flex;
     justify-content: flex-end;
-    width: 30%;
-    height: 30%;
 
 
 }
@@ -134,7 +132,7 @@ img{
 
 
 
-@media screen and (max-width:360px) {
+@media (max-width:360px) {
     *{
         background-color: black;
         color: white;
@@ -149,8 +147,6 @@ img{
         margin-left: 20%;
         display: flex;
         justify-content: flex-end;
-        width: 30%;
-        height: 30%;
     
     
     }
@@ -173,6 +169,7 @@ img{
         text-align: center;
         padding: 2px;
         cursor: pointer;
+        font-size: 20px;
     
     }
     

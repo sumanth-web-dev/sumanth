@@ -50,11 +50,10 @@ button{
 
 
 fieldset{
-    margin-top: 5%;
-    margin-left: 20%;
+    margin: 5%;
     border: soild 1px white;
     height: 40%;
-    width: 60%;
+    width: 80%;
     line-height: 4ch;
     color: white;
 
@@ -80,3 +79,12 @@ legend{
 
 }
 
+@media (max-width:350px) {
+    fieldset{
+        margin: 0%;
+
+
+
+    }
+
+}

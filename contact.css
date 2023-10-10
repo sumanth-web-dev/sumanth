@@ -6,7 +6,9 @@
     margin: 1%;
 }
 
-
+body{
+    align-items: center;
+}
 
 
 
@@ -82,7 +84,7 @@ legend{
 }
 
 @media (max-width:480px) {
-    *{
+    fieldset{
         font-size: 10px;
     }
 }

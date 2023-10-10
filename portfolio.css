@@ -188,7 +188,7 @@ img{
     
     fieldset{
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: 0%;
         border: soild 1px white;
         height: 50%;
         width: 70%;
@@ -213,7 +213,7 @@ img{
     
     
     .head{
-        margin: 10%;
+        margin: 5%;
         border: soild 1px white;
         height: 50%;
         width: 70%;

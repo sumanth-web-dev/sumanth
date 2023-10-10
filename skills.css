@@ -83,7 +83,7 @@ legend{
 }
 
 
-@media screen and (max-width:480px) and (min-width:360px){
+@media screen and (max-width:360px){
     
     *{
         background-color: black;

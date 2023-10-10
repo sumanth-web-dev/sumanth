@@ -11,7 +11,7 @@ function rest(){
     document.getElementById("reslt").innerHTML="";
     for(let i=0;i<9;i++){
         document.getElementById(String(i)).textContent="";
-        document.getElementById(String(i)).disabled=false;
+        document.getElementById(String(i)).disabled=true;
         
     }
 

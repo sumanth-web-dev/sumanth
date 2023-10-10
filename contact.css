@@ -81,7 +81,7 @@ legend{
 
 }
 
-@media (max-width:350px) {
+@media (max-width:480px) {
     *{
         font-size: 10px;
     }

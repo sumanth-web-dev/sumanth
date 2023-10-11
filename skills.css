@@ -79,7 +79,7 @@ legend{
 
 }
 
-@media screen and (max-width:320px) and (min-width:300px){
+@media screen and (max-width:320px){
     fieldset{
         margin: 0%;
     }

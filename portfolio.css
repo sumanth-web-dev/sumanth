@@ -132,7 +132,7 @@ img{
 
 
 
-@media (max-width:480px) {
+@media (max-width:480px) and (min-width:310px){
     *{
         background-color: black;
         color: white;

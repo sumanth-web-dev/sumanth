@@ -82,7 +82,7 @@ legend{
 
 }
 
-@media (max-width:480px) {
+@media (max-width:480px) and (min-width:310px){
     fieldset{
         margin: 4%;
         width: 80%;

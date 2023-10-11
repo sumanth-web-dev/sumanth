@@ -115,7 +115,7 @@
 
 }
 
-@media (max-width:480px) and (min-width:300px){
+@media (max-width:320px) and (min-width:300px){
     
 *{
     background-color: black;

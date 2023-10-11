@@ -83,7 +83,7 @@ legend{
 
 }
 
-@media (max-width:320px){
+@media screen and (max-width:320px){
     fieldset{
         font-size: 10px;
     }

@@ -83,6 +83,13 @@ legend{
 
 }
 
+@media screen and (max-device-width:320px),screen and (max-width:320px){
+    fieldset{
+        font-size: 10px;
+    }
+}
+
+
 @media screen and (max-device-width:414px),screen and (max-width:414px){
     fieldset{
         font-size: 10px;

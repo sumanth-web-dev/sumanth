@@ -131,8 +131,9 @@ img{
 
 
 
+@media screen and (min-device-width:360px),screen and (min-width:360px) and (orientation:portrait)
 
-@media screen and  (max-device-width:300px),screen and (max-width:300px){
+{
     *{
         background-color: black;
         color: white;

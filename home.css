@@ -486,7 +486,7 @@
     *{
         background-color: black;
         color: white;
-        font-size: 20px;
+        font-size: 10px;
         font-family: 'Times New Roman', Times, serif;
         margin: 1%;
     }
@@ -518,6 +518,7 @@
         text-align: center;
         padding: 2px;
         cursor: pointer;
+        font-size: 10px;
     
     }
     

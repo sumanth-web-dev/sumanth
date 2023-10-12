@@ -115,7 +115,7 @@
 
 }
 
-@media (max-width:320px){
+@media screen and (max-device-width:414px),screen and (max-width:414px){
     
 *{
     background-color: black;

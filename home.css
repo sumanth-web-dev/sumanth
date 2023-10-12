@@ -252,11 +252,7 @@
 #head{
     margin-left: 10%;
     display:flex;
-
     justify-content: flex-end;
-
-
-
 }
 
 
@@ -367,7 +363,7 @@
     *{
         background-color: black;
         color: white;
-        font-size: 10px;
+        font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         margin: 1%;
     }

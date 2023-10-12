@@ -147,6 +147,6 @@ legend{
 
 @media screen and (max-device-width:768px),screen and (max-width:768px){
     fieldset{
-        font-size: 10px;
+        font-size: 20px;
     }
 }

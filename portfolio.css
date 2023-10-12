@@ -132,7 +132,7 @@ img{
 
 
 
-@media screen and  (max-device-width:320px),screen and (max-width:320px){
+@media screen and  (max-device-width:300px),screen and (max-width:300px){
     *{
         background-color: black;
         color: white;

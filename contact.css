@@ -146,6 +146,27 @@ legend{
 
 
 @media screen and (max-device-width:768px),screen and (max-width:768px){
+
+    *{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 1%;
+    }
+    
+    body{
+        align-items: center;
+    }
+    
+    
+    
+    #head{
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-end;
+     
+    }
     fieldset{
         font-size: 20px;
     }

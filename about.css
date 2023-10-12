@@ -167,10 +167,32 @@ legend{
 
 
 @media screen and (max-device-width:768px),screen and (max-width:768px){
-    fieldset{
-        margin: 4%;
-        width: 80%;
-
+    *{
+        background-color: black;
+        font-size: 20px;
+        color: white;
+        margin: 1%;
+        font-family: 'Times New Roman', Times, serif;
     }
-
+    
+    
+    
+    
+    
+    
+    #head{
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-end;
+    
+    
+    
+    }
+    
+        
+        fieldset{
+            margin: 4%;
+            width: 80%;
+    
+        }
 }

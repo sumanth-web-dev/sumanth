@@ -86,7 +86,30 @@ legend{
 @media screen and (min-device-width:360px),screen and (min-width:360px) and (orientation:portrait)
 
 
-{
+{ 
+*{
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    margin: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+#head{
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+
+    
     fieldset{
         margin: 4%;
         width: 80%;
@@ -101,7 +124,38 @@ legend{
 
 
 
-@media screen and (max-device-width:414px),screen and (max-width:414px){
+@media screen and (max-device-width:414px),screen and (max-width:414px)
+{
+
+
+    *{
+        background-color: black;
+        font-size: 15px;
+        color: white;
+        margin: 1%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    
+    
+    
+    
+    #head{
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-end;
+    
+    
+    
+    }
+    
+        
+        fieldset{
+            margin: 4%;
+            width: 80%;
+    
+        }
     fieldset{
         margin: 4%;
         width: 80%;
